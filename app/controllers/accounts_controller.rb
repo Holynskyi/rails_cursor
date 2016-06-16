@@ -21,6 +21,11 @@ class AccountsController < ApplicationController
   def edit
   end
 
+  def find_by_name
+    @accounts = Account.where('name like ?', "%#{params[:name]}%")
+    render 'index'
+  end
+
   # POST /accounts
   # POST /accounts.json
   def create
