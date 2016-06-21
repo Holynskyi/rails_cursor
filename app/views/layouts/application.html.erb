@@ -7,8 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%=link_to 'EN', '?locale=en'%>
+  <%=link_to 'UA', '?locale=ua'%>
 
-<%= yield %>
-
+    <%= yield %>
+   <div>
+    <%=t(:hello) %>
+   </div>
 </body>
 </html>

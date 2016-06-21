@@ -21,3 +21,10 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    models:
+      account: "Userok"
+    attributes:
+      account:
+        name: "Name"
+        age: "Age"
