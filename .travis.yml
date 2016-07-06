@@ -1,5 +1,9 @@
-language: ruby
+language: ruby-2.3.0
 rvm:
  - 2.3
  - ruby
 script: bundle exec rspec spec
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database cursor_test;' -U postgres
