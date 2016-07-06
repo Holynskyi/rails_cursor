@@ -24,6 +24,7 @@ ua:
   activerecord:
     models:
       account: "Юзер"
+      product: "Product"
     attributes:
       account:
         name: "Імя"
