@@ -1,6 +1,6 @@
 
 
-[![Travis CI       ](https://travis-ci.org/Stashchenko/rails_cursor.svg)           ](https://travis-ci.org/Stashchenko/rails_cursor.svg)
+[![Travis CI       ](https://travis-ci.org/Stashchenko/rails_cursor.svg)           ](https://travis-ci.org/Stashchenko/rails_cursor)
 
 ## State of the project
 
