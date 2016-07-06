@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :account do
-    name 'VasiaPupkin'
-    age 22
+    name 'HomerSimpson'
+    age 48
   end
 end
