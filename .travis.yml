@@ -7,3 +7,5 @@ services:
 before_script:
   - psql -c "create role rails_app with createdb login password 'pass123';" -U postgres
   - bundle exec rake db:setup
+notifications:
+  email: false
