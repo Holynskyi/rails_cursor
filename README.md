@@ -1,7 +1,7 @@
 
 
 [![Travis CI       ](https://travis-ci.org/Stashchenko/rails_cursor.svg)           ](https://travis-ci.org/Stashchenko/rails_cursor)
-[![Coverage Status](https://coveralls.io/repos/github/Stashchenko/rails_cursor/badge.svg?branch=master)](https://coveralls.io/github/Stashchenko/rails_cursor?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/Stashchenko/rails_cursor/badge.svg)](https://coveralls.io/github/Stashchenko/rails_cursor)
 
 ## State of the project
 
