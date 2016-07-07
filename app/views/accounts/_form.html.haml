@@ -1,0 +1,14 @@
+= form_for(@account) do |f|
+  - if @account.errors.any?
+    #error_explanation
+      = error_messages_for(@account)
+  .field
+    = f.label :name
+    %br/
+    = f.text_field :name
+  .field
+    = f.label :age
+    %br/
+    = f.number_field :age
+  .actions
+    = f.submit

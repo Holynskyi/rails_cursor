@@ -9,4 +9,5 @@ class ApplicationController < ActionController::Base
     I18n.locale = params[:locale] if params[:locale].present?
   end
 
+
 end
